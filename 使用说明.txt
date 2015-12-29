@@ -1,0 +1,5 @@
+1.按照服务端环境里面的wamp环境，并运行wampserver，右下角图标为绿色表示运行成功
+2.在浏览器地址栏中输入127.0.0.1/phpmyadmin进入mysql管理员界面
+3.新建一个明为tongxun的数据库
+4.将[mysql数据库文件]中的tongxun.sql导入
+5.用vs运行即可使用。或者点击Tonxinlu\Tonxinlu\bin\Debug\Tonxinlu.exe即可使用

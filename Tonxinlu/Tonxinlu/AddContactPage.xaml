@@ -1,0 +1,30 @@
+﻿<Page x:Class="Tonxinlu.AddContactPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tonxinlu"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Title="AddContactPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="111*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label" Content="姓名：" HorizontalAlignment="Left" Margin="40,62,0,0" VerticalAlignment="Top" FontSize="21.333"/>
+        <TextBox x:Name="nameBox" Padding="2" HorizontalAlignment="Left" Height="28" Margin="120,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="16"/>
+        <Label x:Name="label_Copy" Content="性别：" HorizontalAlignment="Left" Margin="36,112,0,118.3" FontSize="21.333" d:LayoutOverrides="Height"/>
+        <TextBox x:Name="sexBox" Padding="2" HorizontalAlignment="Left" Margin="120,117,0,122.3" TextWrapping="Wrap" Width="300" FontSize="16"/>
+        <Label x:Name="label_Copy1" Content="电话：" HorizontalAlignment="Left" Margin="36,0,0,71.2" FontSize="21.333" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="phoneBox" Padding="2" HorizontalAlignment="Left" Margin="119,0,0,74.2" TextWrapping="Wrap" Width="300" FontSize="16" Height="28" VerticalAlignment="Bottom"/>
+        <Label x:Name="label_Copy2" Content="邮箱：" HorizontalAlignment="Left" Margin="35,0,0,30.2" FontSize="21.333" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="emailBox" Padding="2" HorizontalAlignment="Left" Margin="117,0,0,32.2" TextWrapping="Wrap" Width="300" FontSize="16" Height="28" VerticalAlignment="Bottom"/>
+        <Label x:Name="label_Copy3" Content="地址：" HorizontalAlignment="Left" Margin="33,0,0,-16.8" FontSize="21.333" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="addressBox" Padding="2" HorizontalAlignment="Left" Margin="118,-13.2,0,0" TextWrapping="Wrap" Width="300" FontSize="16" Height="28" VerticalAlignment="Top" Grid.Row="1"/>
+        <Button x:Name="button" Click="button_Click" Content="添加联系人" HorizontalAlignment="Left" Margin="38,44.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="381" FontSize="18.667" Height="35" BorderThickness="0" Background="#FF0288D1" Foreground="White"/>
+        <TextBox x:Name="resultBox" Padding="5" HorizontalAlignment="Left" Height="35" Margin="40,116.8,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="379" BorderThickness="0,0,1,0" Foreground="#FFDF1818" FontSize="18.667" Background="Transparent"/>
+
+    </Grid>
+</Page>

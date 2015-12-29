@@ -1,0 +1,25 @@
+﻿<Page x:Class="Tonxinlu.SearchPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tonxinlu"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="900"
+      Title="SearchPage">
+
+    <Grid>
+        <Label x:Name="label" Content="请输入需要搜索的姓名" HorizontalAlignment="Left" Margin="43,45,0,0" VerticalAlignment="Top" FontSize="18.667"/>
+        <TextBox x:Name="idBox" Padding="5" HorizontalAlignment="Left" Height="35" Margin="49,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="18.667"/>
+        <Button x:Name="button" Click="button_Click" Content="查询" HorizontalAlignment="Left" Margin="51,154,0,0" VerticalAlignment="Top" Width="173" FontSize="18.667" Height="36" Foreground="White" Background="#FF0288D1" BorderThickness="0"/>
+        <TextBlock x:Name="resultBox" HorizontalAlignment="Left" Margin="50,229,0,0" TextWrapping="Wrap" Text="查询结果：" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.564,3.809"/>
+        <TextBox x:Name="resultID" HorizontalAlignment="Left" Margin="46,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.564,3.809" Width="226" BorderThickness="0"/>
+        <TextBox x:Name="resultName" HorizontalAlignment="Left" Margin="45,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.564,3.809" Width="210" BorderThickness="0"/>
+        <TextBox x:Name="resultSex" HorizontalAlignment="Left" Margin="44,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.564,3.809" Width="231" BorderThickness="0"/>
+        <TextBox x:Name="resultPhone" HorizontalAlignment="Left" Margin="43,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.564,3.809" Width="266" BorderThickness="0"/>
+        <TextBox x:Name="resultEmail" HorizontalAlignment="Left" Margin="44,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.564,3.809" Width="267" BorderThickness="0"/>
+        <TextBox x:Name="resultAddress" HorizontalAlignment="Left" Margin="43,454,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="21.333" RenderTransformOrigin="0.564,3.809" Width="232" BorderThickness="0"/>
+
+
+    </Grid>
+</Page>
